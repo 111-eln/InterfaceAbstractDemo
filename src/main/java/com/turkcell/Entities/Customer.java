@@ -8,7 +8,8 @@ public class Customer implements IEntity {
     public int id;
     public  String FirstName;
     public String LastName;
-    public Date DateOfBirth;
+    public String DateOfBirth;
+    public String NationalityId;
 
     public int getId() {
         return id;
@@ -34,11 +35,11 @@ public class Customer implements IEntity {
         LastName = lastName;
     }
 
-    public Date getDatOfBirth() {
+    public String getDatOfBirth() {
         return DateOfBirth;
     }
 
-    public void setDatOfBirth(Date datOfBirth) {
+    public void setDatOfBirth(String datOfBirth) {
         DateOfBirth = datOfBirth;
     }
 
@@ -50,5 +51,5 @@ public class Customer implements IEntity {
         NationalityId = nationalityId;
     }
 
-    public String NationalityId;
+
 }

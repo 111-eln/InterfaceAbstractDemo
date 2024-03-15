@@ -9,8 +9,8 @@ import javax.naming.InvalidNameException;
 public class StarbucksCustomerManager extends BaseCustomerManager  {
     private ICustomerCheckService _customercheckservice;
 
-    public StarbucksCustomerManager(ICustomerCheckService _customercheckservice) {
-        _customercheckservice = _customercheckservice;
+    public StarbucksCustomerManager(ICustomerCheckService customercheckservice) {
+        _customercheckservice = customercheckservice;
     }
 
     @Override
